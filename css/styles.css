@@ -124,3 +124,13 @@ label {
     padding: 5px;
     border-radius: 4px;
 }
+
+.read {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 3px 4px 7px hsl(180, 32%, 75%);
+}
