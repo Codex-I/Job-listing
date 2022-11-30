@@ -117,4 +117,10 @@ label {
     width: 26%;
 }
 
-.filter div {}
+.filter div {
+    color: darkcyan;
+    font-size: 13px;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 4px;
+}
