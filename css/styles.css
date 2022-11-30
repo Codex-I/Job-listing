@@ -154,3 +154,47 @@ label {
     background-color: white;
     box-shadow: 3px 4px 7px hsl(180, 32%, 75%);
 }
+
+@media only screen and (max-width: 575px) {
+    header {
+        width: 100%;
+        padding: 10vh;
+        background-image: url(../images/bg-header-mobile.svg);
+        background-position: bottom;
+    }
+    main {
+        padding: 15% 5%;
+    }
+    .unread,.read {
+        width: 100%;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+    }
+    .first-item {
+        gap: 16px;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        align-items: flex-start;
+    }
+    .filter {
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        width: 28%;
+        position: relative;
+        bottom: 20px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 10px;
+    }
+    
+}
