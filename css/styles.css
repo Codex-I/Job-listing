@@ -30,10 +30,6 @@ header {
     background-color: hsl(180, 29%, 50%);
 }
 
-img {
-    width: 24%;
-}
-
 main {
     padding: 4% 9%;
     display: flex;
@@ -126,7 +122,7 @@ label {
 .filter {
     display: flex;
     gap: 3%;
-    width: 26%;
+    width: 35%;
     justify-content: flex-end;
     font-weight: 700;
 }
@@ -162,39 +158,66 @@ label {
         background-image: url(../images/bg-header-mobile.svg);
         background-position: bottom;
     }
+
     main {
-        padding: 15% 5%;
+        margin: 20px auto;
+        gap: 3em;
     }
-    .unread,.read {
-        width: 100%;
+
+    .unread,
+    .read {
+
         align-items: flex-start;
         display: flex;
         flex-direction: column;
         padding: 5%;
+        gap: 15px;
     }
+
     .first-item {
-        gap: 16px;
+        gap: 11px;
     }
+
     .info {
         display: flex;
         flex-direction: column;
         width: auto;
         align-items: flex-start;
+        gap: 13px;
     }
+
     .filter {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 7%;
+        width: 94%;
+        justify-content: flex-start;
+        padding-top: 15px;
+        border-top: 1px solid grey;
     }
+
+    .filter div {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .details {
+        gap: 10px;
+    }
+
     img {
-        width: 28%;
-        position: relative;
-        bottom: 20px;
+        width: 30%;
+        margin-top: -39px;
     }
+
     h3 {
         font-size: 15px;
     }
+
     p {
-        font-size: 10px;
+        font-size: 15px;
     }
-    
+
+
+
 }
